@@ -1,58 +1,66 @@
 [
   {
     "count": 4,
-    "description": "Short Product Description1",
+    "description": "Large family book-album (leather) burgundy",
     "id": "7567ec4b-b10c-48c5-9345-fc73c48a80aa",
-    "price": 2.4,
-    "title": "ProductOne"
+    "price": 149.99,
+    "title": "Large family book-album",
+    "imageId": "image1"
   },
   {
     "count": 6,
-    "description": "Short Product Description3",
+    "description": "My goals and achievements book-album (blue) leather",
     "id": "7567ec4b-b10c-48c5-9345-fc73c48a80a0",
-    "price": 10,
-    "title": "ProductNew"
+    "price": 129.99,
+    "title": "My goals and achievements book-album",
+    "imageId": "image2"
   },
   {
     "count": 7,
-    "description": "Short Product Description2",
+    "description": "Our family's recipes album book (brown) leather",
     "id": "7567ec4b-b10c-48c5-9345-fc73c48a80a2",
-    "price": 23,
-    "title": "ProductTop"
+    "price": 149,
+    "title": "Our family's recipes album book",
+    "imageId": "image3"
   },
   {
     "count": 12,
-    "description": "Short Product Description7",
+    "description": "Advice and love book-album (white)",
     "id": "7567ec4b-b10c-48c5-9345-fc73c48a80a1",
-    "price": 15,
-    "title": "ProductTitle"
+    "price": 129.99,
+    "title": "Advice and love book-album",
+    "imageId": "image4"
   },
   {
     "count": 7,
-    "description": "Short Product Description2",
+    "description": "Our Child Book Album (Pink)",
     "id": "7567ec4b-b10c-48c5-9345-fc73c48a80a3",
-    "price": 23,
-    "title": "Product"
+    "price": 149.99,
+    "title": "Our Child Book Album",
+    "imageId": "image5"
   },
   {
     "count": 8,
-    "description": "Short Product Description4",
+    "description": "Sabaneev. Hunter's book",
     "id": "7567ec4b-b10c-48c5-9345-fc73348a80a1",
-    "price": 15,
-    "title": "ProductTest"
+    "price": 159.99,
+    "title": "Sabaneev. Hunter's book",
+    "imageId": "image6"
   },
   {
     "count": 2,
-    "description": "Short Product Descriptio1",
+    "description": "Sabaneev. Hunter's book (with bronze onlays, in a gift case)",
     "id": "7567ec4b-b10c-48c5-9445-fc73c48a80a2",
-    "price": 23,
-    "title": "Product2"
+    "price": 179.99,
+    "title": "Sabaneev. Hunter's book (in a gift case)",
+    "imageId": "image7"
   },
   {
     "count": 3,
-    "description": "Short Product Description7",
+    "description": "Gift case",
     "id": "7567ec4b-b10c-45c5-9345-fc73c48a80a1",
     "price": 15,
-    "title": "ProductName"
+    "title": "Gift case",
+    "imageId": "image8"
   }
 ]

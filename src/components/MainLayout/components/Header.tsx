@@ -47,7 +47,7 @@ export default function Header() {
       <Toolbar>
         <Typography variant="h6" className={classes.title}>
           <Link className={classes.homeLink} to="/">
-            My Store- AUTO DEPLOY!
+            My Shop Books!
           </Link>
         </Typography>
 
