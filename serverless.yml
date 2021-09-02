@@ -70,7 +70,11 @@ resources:
       Properties:
         DistributionConfig:
           Origins:
+<<<<<<< HEAD
             - DomainName: ! GetAtt WebAppS3Bucket.RegionalDomainName
+=======
+            - DomainName: !GetAtt WebAppS3Bucket.RegionalDomainName
+>>>>>>> 3c149a7b3b54e204e3b0ebd50eba15fb565e122c
               ## An identifier for the origin which must be unique within the distribution
               Id: myS3Origin
               ## In case you don't want to restrict the bucket access use CustomOriginConfig and remove S3OriginConfig
