@@ -9,9 +9,9 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Product } from "models/Product";
 import { formatAsPrice } from "utils/utils";
 import AddProductToCart from "components/AddProductToCart/AddProductToCart";
-// import axios from 'axios';
-// import API_PATHS from "constants/apiPaths";
-import productList from "./productList.json"; //закон
+import axios from "axios";
+import API_PATHS from "constants/apiPaths";
+// import productList from "./productList.json"; //закон
 
 const useStyles = makeStyles((theme) => ({
   card: {
@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
   },
   cardMedia: {
-    paddingTop: "56.25%", // 16:9
+    paddingTop: "100%", // 16:9
   },
   cardContent: {
     flexGrow: 1,
@@ -36,9 +36,10 @@ export default function Products() {
   const [products, setProducts] = useState<Product[]>([]);
 
   useEffect(() => {
-    // axios.get(`${API_PATHS.bff}/product/available/`)
-    //   .then(res => setProducts(res.data));
-    setProducts(productList); //заком
+    axios
+      .get(`${API_PATHS.bff}/products/`)
+      .then((res) => setProducts(res.data));
+    // setProducts(productList); //заком
   }, []);
 
   return (
