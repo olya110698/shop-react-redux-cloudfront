@@ -47,7 +47,7 @@ export default function Header() {
       <Toolbar>
         <Typography variant="h6" className={classes.title}>
           <Link className={classes.homeLink} to="/">
-            TASK-5 = Import in S3 Bucket
+            TASK-6 = SQS, SNS, DB
           </Link>
         </Typography>
 

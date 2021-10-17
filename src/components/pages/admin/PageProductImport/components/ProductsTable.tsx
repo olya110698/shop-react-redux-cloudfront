@@ -27,6 +27,15 @@ export default function ProductsTable() {
     });
   };
 
+  const ImageInTable = (props: any) => {
+    let url = `https://dsqgr9m2xn6dg.cloudfront.net/${props.imageid}.jpg`;
+    return (
+      <>
+        <img src={url} width="200px" />
+      </>
+    );
+  };
+
   return (
     <TableContainer component={Paper}>
       <Table aria-label="simple table">
@@ -36,6 +45,7 @@ export default function ProductsTable() {
             <TableCell align="right">Description</TableCell>
             <TableCell align="right">Price</TableCell>
             <TableCell align="right">Count</TableCell>
+            <TableCell align="right">Image</TableCell>
             <TableCell align="right">Action</TableCell>
           </TableRow>
         </TableHead>
@@ -50,6 +60,9 @@ export default function ProductsTable() {
                 {formatAsPrice(product.price)}
               </TableCell>
               <TableCell align="right">{product.count}</TableCell>
+              <TableCell align="right">
+                <ImageInTable imageid={product.imageid} />
+              </TableCell>
               <TableCell align="right">
                 <Button
                   size="small"
