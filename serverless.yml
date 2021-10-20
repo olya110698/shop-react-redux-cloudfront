@@ -8,6 +8,7 @@ provider:
   # setup profile for AWS CLI.
   # profile: node-aws
   region: eu-west-1
+  stage: dev
 
 plugins:
   - serverless-finch
